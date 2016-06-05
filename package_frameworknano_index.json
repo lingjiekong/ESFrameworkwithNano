@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "esframeworkwithnano",
+      "maintainer": "Lingjie Kong",
+      "websiteURL": "http://spdl.stanford.edu/",
+      "email": "ljkong@stanford.edu",
+      "help": {
+        "online": "https://canvas.stanford.edu/courses/26411/discussion_topics"
+      },
+      "platforms": [
+        {
+          "name": "Arduino Nano With Framework",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://canvas.stanford.edu/courses/26411/discussion_topics"
+          },
+          "url": "https://github.com/lingjiekong/ESFrameworkwithNano/raw/master/ESFrameworkNano.zip",
+          "archiveFileName": "ESFrameworkwithNano.zip",
+          "size": "192288",
+          "boards": [
+            {"name": "Nano with Framework"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
